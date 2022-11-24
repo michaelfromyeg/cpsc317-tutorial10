@@ -3,6 +3,9 @@ macro
 pthreads
 strings
 
+starter
+solution
+
 # Prerequisites
 *.d
 
