@@ -13,6 +13,7 @@ The goals of this tutorial are to
 ## Exercises
 
 - Complete `strtok` exercise under corresponding directory
+- Complete the `enum` exercise, too
 
 ## Resources
 
