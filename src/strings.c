@@ -54,6 +54,7 @@ void snprintf_example()
 
     // snprintf
     // format a string and write into a buffer
+    // see also: sprintf, a simpler version of this method
     char buffer[20];
 
     int n = 6 + strlen("format=");

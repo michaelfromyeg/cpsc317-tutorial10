@@ -69,8 +69,13 @@ date: Thursday, November 24th, 2022
 # Agenda
 
 - We're going to cover some C programming
+  - Refresher, a debugging tip, `pthread`s, and strings
 - Time permitting, we'll look at [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/split)
 - **Please go through this guide after tutorial as well**
   - Chapters 2-3 give important background to network programming in C
   - Chapter 5 explains key functions you'll have to use
   - Chapter 6 gives an example client and server
+
+# That's all folks!
+
+- Thanks for coming out; should you have any questions or concerns reach out at mdemar01 \[at\] student \[dot\] ubc \[dot\] ca
