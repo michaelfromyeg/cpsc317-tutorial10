@@ -38,7 +38,7 @@ date: Thursday, November 24th, 2022
 
 # Example FTP Workflow
 
-![FTP Workflow](ftp-workflow.png)
+![FTP Workflow](docs/ftp-workflow.png)
 
 # FTP Command Syntax
 
@@ -61,7 +61,7 @@ date: Thursday, November 24th, 2022
 
 - Work incrementally
 - Pair program
-- Handle `\r\n` at the end of your strings (...there is to "strip" strings, but mostly straightforward to implement)
+- Handle `\r\n` at the end of your strings (...there is no "strip" strings, but mostly straightforward to implement)
 - Creating additional files is potentially helpful, but don't do so until the end (as a refactoring task)
   - (If you don't get there, don't sweat it)
 - Format your code; many editors can do this natively; I like `.editorconfig` files to help with this
