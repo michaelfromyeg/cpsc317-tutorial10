@@ -1,1 +1,11 @@
 CPSC
+Beej
+strtok
+ubc
+pthread
+CWD
+CDUP
+NLST
+STRU
+PASV
+RETR

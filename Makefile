@@ -1,27 +1,26 @@
-PROG := tutorial10
-SRCS := src/main.c
-
 CC      := cc
 CFLAGS  := -Wall -Wextra -Werror
-LDFLAGS :=
-
-OBJS   = $(SRCS:.c=.o)
-DEPS   = $(SRCS:.c=.d)
+LDFLAGS := -lpthread
 
 .PHONY: all
-all: $(PROG)
+all: main pthreads macro strings
 
-$(PROG): $(OBJS)
-	$(CC) $(LDFLAGS) -o $@ $^
+main: src/main.c
+	$(CC) $(CFLAGS) src/main.c -o src/main $(LDFLAGS)
 
-%.o: %.c
-	$(CC) $(CFLAGS) -MMD -c $< -o $@
+pthreads: src/pthreads.c
+	$(CC) $(CFLAGS) src/pthreads.c -o src/pthreads $(LDFLAGS)
 
--include $(DEPS)
+macro: src/macro.c
+	$(CC) $(CFLAGS) src/macro.c -o src/macro $(LDFLAGS)
 
-.PHONY: clean cleaner
+strings: src/strings.c
+	$(CC) $(CFLAGS) src/strings.c -o src/strings $(LDFLAGS)
+
+.PHONY: clean
 clean:
-	rm -f $(OBJS) $(DEPS)
+	rm -f src/main src/pthreads src/macro src/strings
 
-cleaner: clean
-	rm -rf $(PROG)
+.PHONY: slides
+slides: docs/slides.md
+	pandoc -t beamer docs/slides.md -V theme:Warsaw -o docs/slides.pdf
