@@ -23,7 +23,7 @@ date: Thursday, November 24th, 2022
 
 # RFC 959
 
-- The RFC you're interested in for this assignment is [959](https://www.ietf.org/rfc/rfc959.txt9); I would look to ask clarifying questions early on
+- The RFC you're interested in for this assignment is [959](https://www.ietf.org/rfc/rfc959.txt); I would look to ask clarifying questions early on
   - USER, QUIT,
   - CWD, CDUP (`cd ..`), NLST (list directory)
   - TYPE (image, ASCII), MODE, STRU, PASV (active vs. passive)
@@ -38,7 +38,7 @@ date: Thursday, November 24th, 2022
 
 # Example FTP Workflow
 
-![FTP Workflow](docs/ftp-workflow.png)
+![FTP Workflow](ftp-workflow.png)
 
 # FTP Command Syntax
 
