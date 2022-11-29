@@ -38,7 +38,7 @@ date: Thursday, November 24th, 2022
 
 # Example FTP Workflow
 
-![FTP Workflow](ftp-workflow.png)
+![FTP Workflow](docs/ftp-workflow.png)
 
 # FTP Command Syntax
 
